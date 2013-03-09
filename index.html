@@ -1,0 +1,57 @@
+<html>
+
+  <head>
+    <style>
+      body { 
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .bookmarklet {
+        border: 2px solid #dddddd;
+        background-color: #eeeeee;
+        padding: 3px;
+        font-weight: bold;
+      }
+      .bookmarklet a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="content">
+
+    <a href="http://github.com/edsu/jschannel-test"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" /></a> 
+
+    <h1>
+      jschannel test
+    </h1>
+
+    <hr>
+
+    <br>
+
+    <p>
+    Here's a simple highlighting bookmarklet that you can drag to your 
+    bookmarks toolbar to test jschannel.
+    </p>
+
+    <br>
+
+    <p>
+    <span class="bookmarklet">
+    <a href="javascript:(function(){
+      s = document.createElement('script');
+      s.setAttribute('src', 'http://inkdroid.org/tmp/jschannel-test/embed.js');
+      document.body.appendChild(s);
+      })();">highlight<a>
+    </span>
+    </p>
+
+    </div>
+
+  </body>
+</html>
